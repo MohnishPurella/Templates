@@ -15,12 +15,14 @@ import { PanelMenuModule } from 'primeng/panelmenu';
 //components
 import { MenuComponent } from './components/menu/menu.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { PanelMenuComponent } from './components/panel-menu/panel-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    PanelMenuComponent
   ],
   imports: [
     BrowserModule,
