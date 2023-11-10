@@ -2,26 +2,6 @@
 .pageDimensions{
     padding: 10px;
 }
-
-/* primng Menu */
-.p-menu {
-    padding: 0.25rem 0;
-    background: #ffffff;
-    color: #495057;
-    border: 1px solid #dee2e6;
-    border-radius: 6px;
-    width: 8rem;
-}
-
-p-menu ol,ul {
- padding-left: 0rem !important;  
-}
-
-p-menu dl, ol, ul {
-    margin-top: 0;
-    margin-bottom: 0rem !important;
-}
-
 /* primng Menu */
 
 a {    
