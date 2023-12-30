@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.code-container{
+    white-space: pre-wrap;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding-left: 4em;
+}
+
+.cardHeightScroll{
+    height: 300px !important; 
+    overflow-y: auto !important;
+}
+
+.carBorderTransparent{
+    border: 1px solid transparent !important;
+}
