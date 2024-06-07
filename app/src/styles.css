@@ -4,6 +4,9 @@
     margin-top: -20px;
     margin-bottom: -20px;
     padding-left: 4em;
+    white-space: pre-wrap; /* To preserve line breaks */
+    font-weight: bolder;
+    font-size: large;
 }
 
 .cardHeightScroll{
@@ -13,4 +16,13 @@
 
 .carBorderTransparent{
     border: 1px solid transparent !important;
+}
+
+.pageDimension{
+    padding: 10px;
+}
+
+.cardShadow{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
 }
