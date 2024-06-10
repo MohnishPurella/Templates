@@ -4,6 +4,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { PreloadersComponent } from './Components/preloaders/preloaders.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageTemplatesComponent } from './Components/home-page-templates/home-page-templates.component';
+import { Template1CodeComponent } from './Components/home-page-templates/template1/template1-code/template1-code.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'/home', pathMatch:"full"},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:'homeTemplate', component:HomePageTemplatesComponent},
 
   //components
-  {path:'loader1', component:Loader1CodeComponent}
+  {path:'loader1', component:Loader1CodeComponent},
+  {path:'home-Template1', component:Template1CodeComponent}
 ];
 
 @NgModule({

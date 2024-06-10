@@ -1,0 +1,58 @@
+.bodyContent {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    position: relative; /* Added to make positioning relative to this container */
+}
+
+.imgContent {
+    background-color: #283618;
+    min-height: 70vh;
+    max-height: 70vh;
+    text-align: center;
+    position: relative;
+}
+
+.textContent {
+    background-color: #fefae0;
+    min-height: 70vh;
+    max-height: 70vh;
+    overflow: hidden;
+}
+
+.textContent:hover {
+    overflow: auto;
+}
+
+img {
+    border-radius: 5%;
+    position: absolute; /* Overlays the images */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the images */
+}
+
+.imgClass1 {
+    z-index: 3; /* Ensures .imgClass1 is on top */
+    transform: translate(-50%, -50%) rotate(20deg); /* Rotates .imgClass1 by 45 degrees */
+}
+
+.imgClass2 {
+    z-index: 2; /* Ensures .imgClass2 is in the middle */
+    transform: translate(-50%, -50%) rotate(4deg); /* Rotates .imgClass2 by 80 degrees */
+}
+
+.imgClass3 {
+    z-index: 1; /* Ensures .imgClass3 is at the bottom */
+    transform: translate(-50%, -50%) rotate(-10deg); /* Rotates .imgClass3 by 60 degrees */
+}
+
+.text1, .text2 {
+    
+}
+
+.text3 {
+    
+}

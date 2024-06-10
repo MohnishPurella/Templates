@@ -9,6 +9,9 @@ import { Loader1CodeComponent } from './Components/preloaders/loader1/loader1-co
 import { HomeComponent } from './Components/home/home.component';
 import { HomePageTemplatesComponent } from './Components/home-page-templates/home-page-templates.component';
 import { Template1Component } from './Components/home-page-templates/template1/template1.component';
+import { Template1CodeComponent } from './Components/home-page-templates/template1/template1-code/template1-code.component';
+import { TemplateContent1Component } from './Components/home-page-templates/template1/template-content1/template-content1.component';
+import { TemplateContent2Component } from './Components/home-page-templates/template1/template-content2/template-content2.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { Template1Component } from './Components/home-page-templates/template1/t
     Loader1CodeComponent,
     HomeComponent,
     HomePageTemplatesComponent,
-    Template1Component
+    Template1Component,
+    Template1CodeComponent,
+    TemplateContent1Component,
+    TemplateContent2Component
   ],
   imports: [
     BrowserModule,

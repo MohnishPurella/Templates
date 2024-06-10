@@ -11,6 +11,6 @@ export class HomePageTemplatesComponent {
     private router:Router
   ){}
   openHomeTemplate1(){
-    this.router.navigate(['/homeTemplate']);
+    this.router.navigate(['/home-Template1']);
   }
 }
