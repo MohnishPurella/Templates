@@ -183,40 +183,12 @@ img{
 /* Media Queries for responsiveness */
 
 @media (max-width: 768px) {
-    /* .text-box {
-        top: 10%;
-        left: 5%;
-        transform: translateY(50px);
-    }
-
-    .text-box h1 {
-        font-size: 1.5em;
-    }
-
-    .text-box p {
-        font-size: 0.9em;
-        margin-top: 20px;
-    } */
     img{
         top:35%
     }
 }
 
 @media (max-width: 480px) {
-    /* .text-box {
-        top: 5%;
-        left: 5%;
-        transform: translateY(20px);
-    }
-
-    .text-box h1 {
-        font-size: 1.2em;
-    }
-
-    .text-box p {
-        font-size: 0.8em;
-        margin-top: 10px;
-    } */
 
     img{
         top:20%
@@ -224,23 +196,34 @@ img{
 }
 
 @media (max-width: 320px) {
-    /* .text-box {
-        top: 5%;
-        left: 5%;
-        transform: translateY(20px);
-    }
-
-    .text-box h1 {
-        font-size: 1.2em;
-    }
-
-    .text-box p {
-        font-size: 0.8em;
-        margin-top: 10px;
-    } */
 
     img{
         top:15%
+    }
+
+    .text-box{
+        width: 180px;
+        top: 60px;
+        left: 30px;
+    }
+
+    .text-box h1{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    
+    .text-box p{
+        font-size: 5px;
+        line-height: 5px;
+        margin-top: 20px;
+    }
+    
+    .text-box span{
+        background-color: red;
+        height: 1px;
+        width: 100px;
+        position: absolute;
+        left: 0;
     }
 }
 
