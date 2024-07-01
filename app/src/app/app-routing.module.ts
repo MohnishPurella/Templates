@@ -16,7 +16,7 @@ const routes: Routes = [
 
   //components
   {path:'loader1', component:Loader1CodeComponent},
-  {path:'home-Template1', component:Template1Component}
+  {path:'home-Template1', component:Template1CodeComponent}
 ];
 
 @NgModule({

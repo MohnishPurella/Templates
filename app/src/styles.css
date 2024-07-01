@@ -26,3 +26,8 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
+
+body{
+    background-image: url(../../app/src/assets/background.png);
+    background-repeat: no-repeat;
+}

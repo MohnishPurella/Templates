@@ -193,6 +193,31 @@ img{
     img{
         top:20%
     }
+
+    .text-box{
+        width: 240px;
+        top: 80px;
+        left: 40px;
+    }
+
+    .text-box h1{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .text-box p{
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: 30px;
+    }
+    
+    .text-box span{
+        background-color: red;
+        height: 1px;
+        width: 100px;
+        position: absolute;
+        left: 0;
+    }
 }
 
 @media (max-width: 320px) {
@@ -213,8 +238,8 @@ img{
     }
     
     .text-box p{
-        font-size: 5px;
-        line-height: 5px;
+        font-size: 7px;
+        line-height: 9px;
         margin-top: 20px;
     }
     
@@ -226,4 +251,3 @@ img{
         left: 0;
     }
 }
-

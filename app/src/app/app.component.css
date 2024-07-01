@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
+/* Ensure the navbar is on top */
+.navbar {
+    z-index: 1000; /* Ensure navbar is above other content */
+}
+
+/* Adjust top padding to prevent content from being hidden under the navbar */
+.content {
+    padding-top: 70px; /* Adjust this value if your navbar height is different */
+}
