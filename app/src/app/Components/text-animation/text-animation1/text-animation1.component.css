@@ -1,0 +1,59 @@
+.body {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  .body span {
+    text-transform: uppercase;
+    display: block; 
+  }
+  
+  .text1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    
+    position: relative;
+    animation-name: text1;
+    animation-duration: 4s;
+  }
+  
+  .text2 {
+    font-size: 25px;
+    color: #FFE997;
+    opacity: 0; /* Initially hidden */
+    animation-name: text2;
+    animation-duration: 1s;
+    animation-delay: 4s; /* Delay equal to the duration of text1 animation */
+    animation-fill-mode: forwards; /* Keep the final state of the animation */
+  }
+  
+  @keyframes text1 {
+    0% {
+      color: black;
+      margin-bottom: -40px;
+    }
+    30% {
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+    85% {
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+  
+  @keyframes text2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

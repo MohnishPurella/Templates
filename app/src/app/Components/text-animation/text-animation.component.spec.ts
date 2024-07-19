@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Template1CodeComponent } from './template1-code.component';
+import { TextAnimationComponent } from './text-animation.component';
 
-describe('Template1CodeComponent', () => {
-  let component: Template1CodeComponent;
-  let fixture: ComponentFixture<Template1CodeComponent>;
+describe('TextAnimationComponent', () => {
+  let component: TextAnimationComponent;
+  let fixture: ComponentFixture<TextAnimationComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Template1CodeComponent]
+      imports: [TextAnimationComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(Template1CodeComponent);
+    fixture = TestBed.createComponent(TextAnimationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
